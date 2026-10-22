@@ -1,0 +1,6 @@
+(executables
+ (public_names lab07)
+ (names lab07)
+ (libraries src)
+ (preprocess
+  (pps ppx_expect ppx_sexp_conv)))

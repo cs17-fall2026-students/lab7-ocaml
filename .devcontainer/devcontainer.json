@@ -1,0 +1,21 @@
+{
+  "name": "CS17 OCaml",
+  "image": "ghcr.io/cs17-fall2026/cs17-ocaml@sha256:b1fd819083daf1bb4ba9ffab2bcba6e56d1fb9975981057c41ecb4780530821a",
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ocamllabs.ocaml-platform"],
+      "settings": {
+        "chat.disableAIFeatures": true,
+        "github.copilot.enable": { "*": false },
+        "editor.formatOnSave": true,
+        "editor.rulers": [80],
+        "editor.renderControlCharacters": false,
+        "window.zoomLevel": 0,
+        "extensions.ignoreRecommendations": true,
+        "ocaml.sandbox": { "kind": "opam", "switch": "cs17" },
+        "[ocaml]": { "editor.defaultFormatter": "ocamllabs.ocaml-platform" }
+      }
+    }
+  }
+}
